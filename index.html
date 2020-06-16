@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Tic Tac Toe</title>
+</head>
+
+<body>
+  <div class='inputs-div'>
+    <label for="player1">Name of the player one:</label>
+    <input type="text" name="player1" id="player1" value="" autocomplete='off' tabindex="1">
+    <label for="player2">Name of the player two:</label>
+    <input type="text" name="player2" id="player2" value="" autocomplete="off" tabindex="2">
+
+    <button class='submit-btn' tabindex="3">submit</button>
+  </div>
+
+  <button class="start-btn">start/reset</button>
+
+  <div class='board'>
+    <div class="row">
+      <div class="square 1"></div>
+      <div class="square 2"></div>
+      <div class="square 3"></div>
+    </div>
+    <div class="row">
+      <div class="square 4"></div>
+      <div class="square 5"></div>
+      <div class="square 6"></div>
+    </div>
+    <div class="row">
+      <div class="square 7"></div>
+      <div class="square 8"></div>
+      <div class="square 9"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
